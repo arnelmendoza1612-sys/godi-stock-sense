@@ -7,7 +7,7 @@
 @layer base {
   :root {
     /* Brand Colors - Teal & Yellow Theme */
-    --background: 249 251 250; /* Mint-tinted white */
+    --background: 0 0% 100%; /* Pure white */
     --foreground: 15 42 35; /* Dark teal */
 
     --card: 255 255 255; /* Pure white */
