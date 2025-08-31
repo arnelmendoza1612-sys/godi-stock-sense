@@ -8,45 +8,45 @@
   :root {
     /* Brand Colors - Teal & Yellow Theme */
     --background: 0 0% 100%; /* Pure white */
-    --foreground: 15 42 35; /* Dark teal */
+    --foreground: 174 100% 15%; /* Dark teal */
 
-    --card: 255 255 255; /* Pure white */
-    --card-foreground: 15 42 35;
+    --card: 0 0% 100%; /* Pure white */
+    --card-foreground: 174 100% 15%;
 
-    --popover: 255 255 255;
-    --popover-foreground: 15 42 35;
+    --popover: 0 0% 100%;
+    --popover-foreground: 174 100% 15%;
 
     /* Primary - Vibrant Teal */
     --primary: 174 72% 56%; /* Teal from image */
-    --primary-foreground: 255 255 255;
+    --primary-foreground: 0 0% 100%;
     --primary-hover: 174 72% 51%;
     --primary-light: 174 72% 90%;
 
     /* Secondary - Soft Mint */
-    --secondary: 152 41% 78; /* Light mint from image */
-    --secondary-foreground: 15 42 35;
+    --secondary: 152 41% 78%; /* Light mint from image */
+    --secondary-foreground: 174 100% 15%;
 
-    --muted: 152 25% 95; /* Very light mint */
-    --muted-foreground: 100 116 139;
+    --muted: 152 25% 95%; /* Very light mint */
+    --muted-foreground: 220 13% 46%;
 
-    --accent: 152 41% 92; /* Light mint accent */
-    --accent-foreground: 15 42 35;
+    --accent: 152 41% 92%; /* Light mint accent */
+    --accent-foreground: 174 100% 15%;
 
     /* Status Colors */
-    --success: 152 68% 45; /* Darker mint green */
-    --success-foreground: 255 255 255;
-    --success-light: 152 41% 90;
+    --success: 152 68% 45%; /* Darker mint green */
+    --success-foreground: 0 0% 100%;
+    --success-light: 152 41% 90%;
 
-    --warning: 45 93% 58; /* Yellow from image */
-    --warning-foreground: 15 42 35;
-    --warning-light: 45 93% 88;
+    --warning: 45 93% 58%; /* Yellow from image */
+    --warning-foreground: 174 100% 15%;
+    --warning-light: 45 93% 88%;
 
-    --destructive: 239 68 68; /* Red-500 */
-    --destructive-foreground: 255 255 255;
-    --destructive-light: 254 226 226;
+    --destructive: 0 65% 51%; /* Red */
+    --destructive-foreground: 0 0% 100%;
+    --destructive-light: 0 93% 94%;
 
-    --border: 152 25% 85; /* Light mint border */
-    --input: 152 25% 85;
+    --border: 152 25% 85%; /* Light mint border */
+    --input: 152 25% 85%;
     --ring: 174 72% 56%;
 
     /* Layout */
@@ -62,41 +62,41 @@
     --shadow-lg: 0 10px 20px -4px rgb(0 0 0 / 0.1);
     
     /* Sidebar */
-    --sidebar-background: 255 255 255;
-    --sidebar-foreground: 15 42 35;
+    --sidebar-background: 0 0% 100%;
+    --sidebar-foreground: 174 100% 15%;
     --sidebar-primary: 174 72% 56%;
-    --sidebar-primary-foreground: 255 255 255;
-    --sidebar-accent: 152 41% 92;
-    --sidebar-accent-foreground: 15 42 35;
-    --sidebar-border: 152 25% 85;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 152 41% 92%;
+    --sidebar-accent-foreground: 174 100% 15%;
+    --sidebar-border: 152 25% 85%;
     --sidebar-ring: 174 72% 56%;
   }
 
   .dark {
-    --background: 8 25 20; /* Dark teal background */
-    --foreground: 152 41% 88;
+    --background: 174 25% 8%; /* Dark teal background */
+    --foreground: 152 41% 88%;
 
-    --card: 15 42 35; /* Dark teal card */
-    --card-foreground: 152 41% 88;
+    --card: 174 42% 15%; /* Dark teal card */
+    --card-foreground: 152 41% 88%;
 
-    --popover: 15 42 35;
-    --popover-foreground: 152 41% 88;
+    --popover: 174 42% 15%;
+    --popover-foreground: 152 41% 88%;
 
     --primary: 174 72% 65%;
-    --primary-foreground: 8 25 20;
+    --primary-foreground: 174 25% 8%;
     --primary-hover: 174 72% 70%;
 
-    --secondary: 152 20% 25; /* Dark mint */
-    --secondary-foreground: 152 41% 88;
+    --secondary: 152 20% 25%; /* Dark mint */
+    --secondary-foreground: 152 41% 88%;
 
-    --muted: 152 20% 25;
-    --muted-foreground: 152 25% 65;
+    --muted: 152 20% 25%;
+    --muted-foreground: 152 25% 65%;
 
-    --accent: 152 20% 25;
-    --accent-foreground: 152 41% 88;
+    --accent: 152 20% 25%;
+    --accent-foreground: 152 41% 88%;
 
-    --border: 152 20% 25;
-    --input: 152 20% 25;
+    --border: 152 20% 25%;
+    --input: 152 20% 25%;
     --ring: 174 72% 65%;
   }
 }
